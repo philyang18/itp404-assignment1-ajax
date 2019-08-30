@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Reddit Search</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <form id="reddit-form" action="">
+    <input id="search-bar" type="search" placeholder="Search a Subreddit" value="">
+    <input id="search-button" type="submit" value="Search">
+  </form>
+
+  <div id="loading-spinner" class=""></div>
+  <div id="results" class="container"></div>
+  <div id="error"></div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+
+
+</body>
+</html>
